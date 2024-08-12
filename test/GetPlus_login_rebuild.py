@@ -387,7 +387,7 @@ class TestLogin:
                 email_fields.click()
                 email_fields.send_keys("gpites01+qa123@gmail.com")
                 password_field.click()
-                password_field.send_keys("Gpiqa123")
+                password_field.send_keys("Gxxxxxxxx")
                 login_button.click()
 
             with allure.step("Check Pop up error message"):
