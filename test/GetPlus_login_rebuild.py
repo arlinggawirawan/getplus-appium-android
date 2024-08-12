@@ -335,7 +335,7 @@ class TestLogin:
                         By.ID, "com.getplus.application:id/et_password"))
                 )
                 password_field.click()
-                password_field.send_keys("Gpiqa12")
+                password_field.send_keys("xxxxxxx")
 
                 validation_loginbutton = wait.until(
                     expected.visibility_of_element_located((
@@ -363,7 +363,7 @@ class TestLogin:
                 email_fields.click()
                 email_fields.send_keys("gpites01+qa@gmail.com")
                 password_field.click()
-                password_field.send_keys("Gpiqa12345")
+                password_field.send_keys("xxxxxxx")
                 login_button = wait.until(
                     expected.element_to_be_clickable((
                         By.ID, "com.getplus.application:id/bt_login"))
@@ -403,7 +403,7 @@ class TestLogin:
                 email_fields.click()
                 email_fields.send_keys("088294185898")
                 password_field.click()
-                password_field.send_keys("Gpiqa123")
+                password_field.send_keys("xxxxxxx")
                 login_button.click()
 
             with allure.step("Check toast error message"):
